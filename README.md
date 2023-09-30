@@ -17,11 +17,11 @@ All properties inherit from the base class Estate.
 All commercials inherit from the commercial base class which in turn inherits from the estate class.
 Residentals inherit from the residental class, which inherits from the estate class as well.
 
-## Commercials
+### Commercials
 * Warehouse
 * Shop
 
-## Residentals
+### Residentals
 * Apartment
 * House
 * Villa
