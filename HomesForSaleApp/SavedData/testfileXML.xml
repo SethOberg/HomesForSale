@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEstate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Estate xsi:type="Warehouse">
+    <EstateID>9833</EstateID>
+    <EstateAdress>
+      <Street>gata10</Street>
+      <ZipCode>89289</ZipCode>
+      <City>Stockholm</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Rental</LegalForm>
+  </Estate>
+  <Estate xsi:type="Townhouse">
+    <EstateID>98291</EstateID>
+    <EstateAdress>
+      <Street>gata20</Street>
+      <ZipCode>1982</ZipCode>
+      <City>Stockholm</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Ownership</LegalForm>
+  </Estate>
+  <Estate xsi:type="Villa">
+    <EstateID>98129</EstateID>
+    <EstateAdress>
+      <Street>gata21</Street>
+      <ZipCode>91821</ZipCode>
+      <City>Göteborg</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Rental</LegalForm>
+    <garage>false</garage>
+  </Estate>
+</ArrayOfEstate>

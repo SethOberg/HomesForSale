@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F824FD42-A92F-4ECC-9957-93A3312FB283}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HomesForSaleBLL</RootNamespace>
+    <AssemblyName>HomesForSaleBLL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Commercials\Warehouse.cs" />
+    <Compile Include="Commercials\Commercial.cs" />
+    <Compile Include="Commercials\Shop.cs" />
+    <Compile Include="Dictionary\CityDictionary.cs" />
+    <Compile Include="Estate\EstateType.cs" />
+    <Compile Include="Estate\Adress.cs" />
+    <Compile Include="Estate\Estate.cs" />
+    <Compile Include="Estate\LegalForm.cs" />
+    <Compile Include="Estate\IEstate.cs" />
+    <Compile Include="List\EstateManager.cs" />
+    <Compile Include="Residentals\House.cs" />
+    <Compile Include="Residentals\Residental.cs" />
+    <Compile Include="Residentals\Apartment.cs" />
+    <Compile Include="Residentals\Villa.cs" />
+    <Compile Include="Residentals\Townhouse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HomesForSaleDAL\HomesForSaleDAL.csproj">
+      <Project>{9A4016B9-C4BB-4790-9B64-E86524CACC94}</Project>
+      <Name>HomesForSaleDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilitiesLibrary\UtilitiesLibrary.csproj">
+      <Project>{6E2637F8-A778-4431-A52E-DA75A8F1C2FE}</Project>
+      <Name>UtilitiesLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

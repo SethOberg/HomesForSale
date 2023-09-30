@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesForSaleApp", "HomesForSaleApp\HomesForSaleApp.csproj", "{CFFFCCDC-2498-45C7-AF86-5CE3024AC462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesForSaleDAL", "HomesForSaleDAL\HomesForSaleDAL.csproj", "{9A4016B9-C4BB-4790-9B64-E86524CACC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilitiesLibrary", "UtilitiesLibrary\UtilitiesLibrary.csproj", "{6E2637F8-A778-4431-A52E-DA75A8F1C2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomesForSaleBLL", "HomesForSaleBLL\HomesForSaleBLL.csproj", "{F824FD42-A92F-4ECC-9957-93A3312FB283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFFCCDC-2498-45C7-AF86-5CE3024AC462}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{CFFFCCDC-2498-45C7-AF86-5CE3024AC462}.Debug|anycpu.Build.0 = Debug|anycpu
+		{CFFFCCDC-2498-45C7-AF86-5CE3024AC462}.Release|anycpu.ActiveCfg = Release|anycpu
+		{CFFFCCDC-2498-45C7-AF86-5CE3024AC462}.Release|anycpu.Build.0 = Release|anycpu
+		{9A4016B9-C4BB-4790-9B64-E86524CACC94}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{9A4016B9-C4BB-4790-9B64-E86524CACC94}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{9A4016B9-C4BB-4790-9B64-E86524CACC94}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{9A4016B9-C4BB-4790-9B64-E86524CACC94}.Release|anycpu.Build.0 = Release|Any CPU
+		{6E2637F8-A778-4431-A52E-DA75A8F1C2FE}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{6E2637F8-A778-4431-A52E-DA75A8F1C2FE}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{6E2637F8-A778-4431-A52E-DA75A8F1C2FE}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{6E2637F8-A778-4431-A52E-DA75A8F1C2FE}.Release|anycpu.Build.0 = Release|Any CPU
+		{F824FD42-A92F-4ECC-9957-93A3312FB283}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{F824FD42-A92F-4ECC-9957-93A3312FB283}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{F824FD42-A92F-4ECC-9957-93A3312FB283}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{F824FD42-A92F-4ECC-9957-93A3312FB283}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEstate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Estate xsi:type="Apartment">
+    <EstateID>1</EstateID>
+    <EstateAdress>
+      <Street>gata10</Street>
+      <ZipCode>1111</ZipCode>
+      <City>Malmö</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Ownership</LegalForm>
+  </Estate>
+  <Estate xsi:type="Shop">
+    <EstateID>2</EstateID>
+    <EstateAdress>
+      <Street>gata12</Street>
+      <ZipCode>22222</ZipCode>
+      <City>Malmö</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Rental</LegalForm>
+  </Estate>
+  <Estate xsi:type="Villa">
+    <EstateID>3</EstateID>
+    <EstateAdress>
+      <Street>gata30</Street>
+      <ZipCode>33333</ZipCode>
+      <City>Malmö</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Tenement</LegalForm>
+    <garage>false</garage>
+  </Estate>
+  <Estate xsi:type="Warehouse">
+    <EstateID>4</EstateID>
+    <EstateAdress>
+      <Street>gata8</Street>
+      <ZipCode>12121</ZipCode>
+      <City>Malmö</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Ownership</LegalForm>
+  </Estate>
+  <Estate xsi:type="House">
+    <EstateID>5</EstateID>
+    <EstateAdress>
+      <Street>gata4</Street>
+      <ZipCode>23232</ZipCode>
+      <City>Lund</City>
+      <Country>Sverige</Country>
+    </EstateAdress>
+    <LegalForm>Ownership</LegalForm>
+  </Estate>
+</ArrayOfEstate>
